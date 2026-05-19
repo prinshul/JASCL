@@ -1,0 +1,1 @@
+nohup python -m torch.distributed.launch --nproc_per_node=1 run.py --num_workers 8 --data_root "" --load_weight_strategy --batch_size 1 --vanila --step 3 --num_classes 31 >> step_3.log &

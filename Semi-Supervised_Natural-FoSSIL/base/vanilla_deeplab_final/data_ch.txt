@@ -1,0 +1,18 @@
+/hdd4/cil/final_dataset/step1/train/labels/
+{0: 5875, 1: 3969, 2: 5340, 3: 961, 4: 1854, 5: 2743, 6: 4544, 7: 1955, 8: 5918,
+ 9: 1840, 255: 6091}
+/hdd4/cil/final_dataset/step1/test/labels/
+{0: 847, 1: 612, 2: 758, 3: 111, 4: 206, 5: 443, 6: 660, 7: 305, 8: 833,
+ 9: 283, 255: 861}
+
+
+/hdd4/cil/final_dataset/step2/train/labels/
+{10: 360, 11: 1262, 12: 896, 13: 933, 14: 1432, 255: 1446}
+/hdd4/cil/final_dataset/step2/test/labels/
+{10: 54, 11: 173, 12: 155, 13: 139, 14: 220, 255: 225}
+
+
+/hdd4/cil/final_dataset/step3/train/labels/
+{7: 528, 8: 590, 15: 397, 16: 886, 17: 336, 255: 1532}
+/hdd4/cil/final_dataset/step3/test/labels/
+{7: 82, 8: 91, 15: 58, 16: 139, 17: 45, 255: 236}

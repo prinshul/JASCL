@@ -1,0 +1,13 @@
+trainer:
+  max_steps: 3050
+  val_check_interval: 5
+  check_val_every_n_epoch: ~
+  logger:
+    class_path: lightning.pytorch.loggers.TensorBoardLogger
+model:
+  class_path: training.linear_semantic.LinearSemantic
+  init_args:
+    network:
+      class_path: models.linear_decoder.LinearDecoder
+data:
+  class_path: datasets.step0_dataset.step0_data
