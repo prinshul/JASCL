@@ -71,8 +71,8 @@ Base has a large number of labeled samples, while incremental sessions (1-5) hav
 ##
 ## 🎯 Environment Setup
 ```
-git clone https://github.com/anony34/FoSSIL.git
-cd FoSSIL
+git clone https://github.com/prinshul/JASCL.git
+cd JASCL
 
 ** Medical ** 
 conda create -n med_fossil python=3.9.19
