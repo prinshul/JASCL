@@ -438,7 +438,7 @@ For baselines implementation ([med_disjoint](https://github.com/anony34/FoSSIL/t
 [![MIT License](https://img.shields.io/badge/MIT-License-yellow?logo=open-source)](https://opensource.org/licenses/MIT) (code)  
 [![CC BY-NC 4.0](https://img.shields.io/badge/CC_BY--NC-4.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/) (models & datasets) 
 
-© 2025 Anony34. Use code under MIT License, models and datasets under CC BY-NC 4.0.
+© 2026. Use code under MIT License, models and datasets under CC BY-NC 4.0.
 
 
 
