@@ -113,13 +113,13 @@ In our experiments, we tried to pick the best models based on different criteria
 Download the data corresponding to **Semi-Supervised Natural-JASCL** and put the paths to the data in ``share_quant.py`` in the *base* and *inc* (incremental) folders.
 Run the following base command in the *base* folder: 
 ```
-cd FoSSIL/Semi-Supervised_Natural-FoSSIL/base/vanilla_deeplab_final
+cd JASCL/Semi-Supervised_Natural-FoSSIL/base/vanilla_deeplab_final
 python train_step1.py --eval-type train
 python train_step1.py --eval-type test
 ```
 Run the incremental sessions in the *inc* folder using:
 ```
-cd FoSSIL/Semi-Supervised_Natural-FoSSIL/inc/deeplab_gaps_meanT
+cd JASCL/Semi-Supervised_Natural-FoSSIL/inc/deeplab_gaps_meanT
 python train_step2.py --eval-type train --nshot 10 --pseudo_label 5 --proto_use 25 --batch-size 2
 python train_step2.py --eval-type test --nshot 10
 python train_step3.py --eval-type train --nshot 10 --pseudo_label 5 --proto_use 25 --batch-size 2
@@ -136,12 +136,12 @@ Download the data corresponding to **Natural-JASCL** and place the paths to the 
 Run the following base session in the *base* folder: 
 
 ```
-cd FoSSIL/Natural-FoSSIL/base/benchmark-vfm-ss
+cd JASCL/Natural-FoSSIL/base/benchmark-vfm-ss
 python main.py fit -c configs/step0.yaml --root results/step0 --model.network.encoder_name samvit_base_patch16.sa1b 
 ```
 Run the incremental sessions in the *inc* folder using:
 ```
-cd FoSSIL/Natural-FoSSIL/inc/benchmark-vfm-ss_new
+cd JASCL/Natural-FoSSIL/inc/benchmark-vfm-ss_new
 
 python main.py fit -c configs/step1.yaml \
   --root results/step1 \
@@ -163,7 +163,7 @@ python main.py fit -c configs/step2.yaml \
 Download the data corresponding to **Med JASCL-Disjoint** and place the paths to the data in ``argparser.py`` : (``train_root_path``, ``val_root_path``, ``list_dir``) in *base* and *inc* folders.
 Run the following base session in the *base* folder: 
 ```
-cd FoSSIL/Med_FoSSIL-Disjoint/base/codu_run/codu
+cd JASCL/Med_FoSSIL-Disjoint/base/codu_run/codu
 sh run/merged-ms.sh
 ```
 (add ``--test`` to the command in ``run/merged-ms.sh`` to test)    
@@ -175,7 +175,7 @@ test command: exp --method FT --name FT --lr ${lr} ${gen_par} --num_classes 16 -
 ```
 Run the incremental sessions in the *inc* folder using:
 ```
-cd FoSSIL/Med_FoSSIL-Disjoint/inc/codu_perturbation/codu
+cd JASCL/Med_FoSSIL-Disjoint/inc/codu_perturbation/codu
 sh run/merged-ms.sh
 ```
 (Use the corresponding session command to train the incremental sessions accordingly.) 
@@ -189,7 +189,7 @@ Download the data corresponding to Detection (change folder name to ``Detection_
 
 Run the following command to prepare the required data splits: 
 ```
-cd FoSSIL/Detection/
+cd JASCL/Detection/
 python tools/prepare_split.py 
 ```
 
