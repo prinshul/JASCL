@@ -432,6 +432,21 @@ For baselines implementation, we have used the following repositories:
 
 **Others (Representation Learning, Meta-Learning, Active Learning, Few-shot Learning and Domain shift)**: [SupCL](https://github.com/google-research/google-research/tree/master/supcon), [UnSupCL](https://github.com/google-research/simclr), [UnSupCL-HNM](https://github.com/joshr17/HCL), [MTL](https://github.com/AI-secure/multi-task-learning), [MAML](https://github.com/CEA-LIST/MetaMTReg), [CLIP-driven](https://github.com/ljwztc/CLIP-Driven-Universal-Model), [HALO](https://github.com/paolomandica/HALO).
 
+## Citation
+
+If you find this work useful in your research, please cite our ICML 2026 paper:
+
+```bibtex
+@inproceedings{pandey2026continual,
+  title={Continual Segmentation under Joint Nonstationarity},
+  author={Pandey, Prashant and Kumar, Himanshu and Chowdary, Devineni Sri Venkatraya and Lall, Brejesh},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=tqKRgRqaza}
+}
+```
+
+
 ###
 ## 📖 License
 
