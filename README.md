@@ -8,10 +8,17 @@
 
 <div align="center">
 
-# Continual Segmentation under Joint Nonstationarity
+<h1>Continual Segmentation<br>under Joint Nonstationarity</h1>
 
-[![Paper]](https://arxiv.org/pdf/2605.20538)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-orange?logo=huggingface&style=for-the-badge)](https://huggingface.co/anony34/FoSSIL)
+<p><strong>ICML 2026</strong></p>
+
+<a href="https://arxiv.org/pdf/2605.20538">
+  <img src="https://img.shields.io/badge/arXiv-Paper-B31B1B?logo=arxiv&logoColor=white&style=for-the-badge" alt="Paper">
+</a>
+&nbsp;
+<a href="https://huggingface.co/anony34/FoSSIL">
+  <img src="https://img.shields.io/badge/Hugging%20Face-Model-FFD21E?logo=huggingface&style=for-the-badge" alt="Hugging Face Model">
+</a>
 
 </div>
 
