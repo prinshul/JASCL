@@ -10,8 +10,8 @@
 
 # Continual Segmentation under Joint Nonstationarity
 
-[![Paper](https://shields.io)](https://arxiv.org/pdf/2605.20538)
-[![Hugging Face Model](https://shields.io)](https://huggingface.co/anony34/FoSSIL)
+[![Paper]](https://arxiv.org/pdf/2605.20538)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-orange?logo=huggingface&style=for-the-badge)](https://huggingface.co/anony34/FoSSIL)
 
 </div>
 
