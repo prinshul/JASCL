@@ -10,10 +10,17 @@
 
 # Continual Segmentation under Joint Nonstationarity
 
-[![arXiv](https://shields.io)]([https://arxiv.org](https://arxiv.org/abs/2605.20538))
-[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-orange?logo=huggingface&style=for-the-badge)](https://huggingface.co/anony34/FoSSIL)
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.20538">
+    <img src="https://shields.io" alt="arXiv Paper">
+  </a>
+  <a href="https://huggingface.co/anony34/FoSSIL">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Model-orange?logo=huggingface&style=for-the-badge" alt="Hugging Face Model">
+  </a>
+</p>
 
 </div>
+
 
 
 This is the official implementation of Continual Segmentation under Joint Nonstationarity accepted at the International Conference on Machine Learning (ICML) 2026.
