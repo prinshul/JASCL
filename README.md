@@ -20,6 +20,10 @@
 <a href="https://huggingface.co/anony34/FoSSIL">
   <img src="https://img.shields.io/badge/Hugging%20Face-Model-FFD21E?logo=huggingface&style=for-the-badge" alt="Hugging Face Model">
 </a>
+&nbsp;
+<a href="https://prinshul.github.io/JASCL_demo/">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Demo-222222?logo=githubpages&logoColor=white&style=for-the-badge" alt="Demo">
+</a>
 
 </div>
 
