@@ -1,6 +1,7 @@
-<!-- <div align="center">
+<div align="center">
 
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-orange?logo=huggingface&style=for-the-badge)](https://huggingface.co/anony34/FoSSIL)
+[![Demo](https://img.shields.io/badge/GitHub%20Pages-Demo-blue?logo=githubpages&style=for-the-badge)](https://prinshul.github.io/JASCL_demo/)
 
 </div>
 
